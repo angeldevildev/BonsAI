@@ -34,7 +34,7 @@ function Sketch() {
           <div className="web-mobile-section">
             <h3>Web & mobile</h3>
             <p>Instantly switch your web application to a mobile app.</p>
-            <img src={Dashboard2} alt="Mobile App Screenshot" />
+            <img src={Dashboard2} alt="Mobile App Screenshot" className="mobileImg"/>
           </div>
           <div className="templates-section">
             <h3>10K+ Templates</h3>
@@ -45,6 +45,7 @@ function Sketch() {
               src={OrderList}
               alt="Templates Screenshot"
               style={{ width: "60vh" }}
+              className="imgOrderList"
             />
           </div>
         </div>

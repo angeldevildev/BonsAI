@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Header from './components/Header/Header'
 import Sketch from './components/Sketch/Sketch'
+import TypeIt from './components/TypeIt/TypeIt'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Header />
         <Sketch />
+        <TypeIt />
       </div>
     </>
   )

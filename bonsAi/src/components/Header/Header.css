@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 90vh; 
+    height: 91vh; 
 }
 
 
@@ -42,6 +42,20 @@
 
     .header p {
         font-size: 2.5vh;
+    }
+
+    .header {
+        text-align: center;
+    }
+}
+
+@media (max-width: 822px) {
+    .header p {
+        font-size: 2.1vh;
+    }
+
+    .header h1 {
+        font-size: 8vh;
     }
 }
 
